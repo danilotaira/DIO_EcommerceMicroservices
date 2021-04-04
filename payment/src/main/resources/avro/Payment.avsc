@@ -1,0 +1,16 @@
+{
+  "name": "PaymentCreatedEvent",
+  "namespace": "com.microservices.ecommerce.payment.event",
+  "type": "record",
+  "fields": [
+    {
+      "name": "checkoutCode",
+      "type": ["string"]
+    },
+    {
+      "name": "paymentCode",
+      "type": ["string"]
+    }
+  ]
+}
+}

@@ -1,0 +1,15 @@
+{
+  "name": "CheckoutCreatedEvent",
+  "namespace": "com.microservices.ecommerce.checkout.event",
+  "type": "record",
+  "fields" : [
+    {
+      "name": "checkoutCode",
+      "type": "string"
+    },
+    {
+      "name": "status",
+      "type": "string"
+    }
+  ]
+}
